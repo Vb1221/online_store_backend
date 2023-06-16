@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-balanonlinestore-staging-202938-authRole",
+      "UnauthRoleArn": "arn:aws:iam::340573433485:role/amplify-balanonlinestore-staging-202938-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::340573433485:role/amplify-balanonlinestore-staging-202938-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-balanonlinestore-staging-202938-deployment",
+      "UnauthRoleName": "amplify-balanonlinestore-staging-202938-unauthRole",
+      "StackName": "amplify-balanonlinestore-staging-202938",
+      "StackId": "arn:aws:cloudformation:eu-north-1:340573433485:stack/amplify-balanonlinestore-staging-202938/8425a4e0-0c84-11ee-b49c-0e77687fc4dc",
+      "AmplifyAppId": "d2dfqx07z6mnem"
+    }
+  }
+}
