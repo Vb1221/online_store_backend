@@ -58,8 +58,13 @@ class DeviceController {
     )
     return res.json(device)
   }
-  async delete (req, res){
+  async remove(req, res){
+    const id = req.query; 
+
     
+    await Device.destroy({ where: id});
+
+    res.sendStatus(204)
   }
 
 }
