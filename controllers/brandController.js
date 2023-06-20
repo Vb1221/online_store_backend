@@ -12,9 +12,11 @@ class BrandController {
     return res.json(brands)
   }
   async delete (req, res){
-    
-  }
+    const id = req.query; 
 
+    await Type.destroy({ where: id});
+      res.sendStatus(204)
+    }
 }
 
 module.exports = new BrandController()

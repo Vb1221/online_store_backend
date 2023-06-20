@@ -12,8 +12,11 @@ class TypeController {
     return res.json(types)
   }
   async delete (req, res){
-    
-  }
+    const id = req.query; 
+
+    await Type.destroy({ where: id});
+      res.sendStatus(204)
+    }
 }
 
 module.exports = new TypeController()

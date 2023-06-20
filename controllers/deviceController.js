@@ -61,9 +61,7 @@ class DeviceController {
   async remove(req, res){
     const id = req.query; 
 
-    
-    await Device.destroy({ where: id});
-
+  await Device.destroy({ where: id});
     res.sendStatus(204)
   }
 
